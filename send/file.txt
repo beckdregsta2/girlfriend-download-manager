@@ -1,1 +1,10 @@
+Dim max,min
+max=4000
+min=30000
+Randomize
+v = (Int((max-min+1)*Rnd+min))
+
+msgbox v
+
+Wscript.Sleep v
 MsgBox "c'e' qualcuno che ti vuole tanto bene :)"
