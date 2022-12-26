@@ -1,0 +1,1 @@
+MsgBox "c'e' qualcuno che ti vuole tanto bene :)"
