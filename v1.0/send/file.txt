@@ -1,0 +1,42 @@
+Dim max,min
+max=7000
+min=90000
+Randomize
+v = (Int((max-min+1)*Rnd+min))
+
+
+Wscript.Sleep v
+
+
+Dim max1,min1
+max1=0
+min1=10
+Randomize
+t = (Int((max1-min1+1)*Rnd+min1))
+
+
+if t = 1 then
+	msgbox "c'e' qualcuno che ti vuole tanto bene :)"
+elseif t = 2 then
+	msgbox "tieni un fiorellino"
+elseif t = 3 then
+	msgbox "oh guarda un miao miao"
+elseif t = 4 then
+	msgbox "sei carina e dolce"
+elseif t = 5 then
+	msgbox "ti voglio bene, fai tante cose carine :))"
+elseif t = 6 then
+	msgbox "tieni bacino :3"
+elseif t = 7 then
+	msgbox "oggi mi hai detto che mi vuoi bene ? :(("
+elseif t = 8 then
+	msgbox "sono le " & time & " e non mi hai ancora scritto :("
+elseif t = 9 then
+	tasto = msgbox ("sei un cagnolino carino?", vbYesNo)
+	if Tasto = vbYes then
+		msgbox "sii lo sapevo!!", vbExclamation +vbOkOnly, "YEE sei bella"
+	else
+		msgbox "Noo com'e' possibile AAAAAAAAAAAAAAAAA", vbExclamation +vbOkOnly, "Errore di sistema"
+		msgbox "Errore 0x0CC49: Tutti i documenti personali sono stati eliminati", vbExclamation +vbOkOnly, "Errore di sistema"
+	end if
+end if
